@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GadgetZone</string>
+    <string name="front">What types of gadget you want to order?</string>
+    <string name="option1Text">PC Components</string>
+    <string name="option2Text"> Mobile Components</string>
+    <string name="option3Text">Hardware</string>
+    <string name="nextText">Next</string>
+    <string name="pcComponentsQ">What you need for your pc?</string>
+    <string name="secondOption1Text">Keyboard</string>
+    <string name="secondOption2Text">Mouse</string>
+    <string name="secondOption3Text">Pendrive</string>
+    <string name="mobileQ">What you need for your mobile?</string>
+    <string name="mobileOption1Text">Memory Card</string>
+    <string name="mobileOption2Text">Charger</string>
+    <string name="mobileOption3Text">Screen Protector</string>
+    <string name="hardwareQ">Which home appliance you need??</string>
+    <string name="hardwawreOption1Text">Air Condition</string>
+    <string name="hardwareOption2Text">Oven</string>
+    <string name="hardwareOption3Text">Washing Machine</string>
+    <string name="TryagainButtonText">Try Again</string>
+    <string name="submitText">Submit</string>
+</resources>

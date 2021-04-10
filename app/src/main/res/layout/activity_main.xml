@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="ID"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:id="@+id/idEditTextid">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:id="@+id/nameEditTextid">
+
+    </EditText>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Mobile"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:id="@+id/phoneEditTextid">
+
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save My Data"
+        android:onClick="SaveData"
+        android:layout_marginTop="15dp">
+    </Button>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:weightSum="2">
+        <EditText
+            android:id="@+id/searchTextiD"
+            android:layout_marginTop="35dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="ID"
+            android:textColor="@color/white"
+            android:padding="0dp"
+            android:gravity="center"
+            android:background="@color/purple_500"
+            android:textSize="30dp">
+
+        </EditText>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+           android:layout_marginTop="35dp"
+            android:padding="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="User Info"
+            android:onClick="showData">
+        </Button>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/idoutput">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/phoneoutput">
+
+    </TextView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Here"
+        android:onClick="Ordergadget"
+        android:layout_marginTop="15dp">
+    </Button>
+
+
+
+</LinearLayout>
